@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Register</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style_Registration.css">
+</head>
+
+
+<body>
+    <div id="slogo">
+        <img src="logo.png">
+    </div>
+    <h1>Register with Heerock</h1>
+
+    <form method="POST" action="registration_back.php">
+        
+        <div class="registerTo">
+        <div class="comp">
+
+            <div class="row">
+                <label for="f_name">First Name</label>
+                <input type="text" name="f_name" required>
+            </div>
+            <div class="row">
+                <label>Last Name</label>
+                <input type="text" name="l_name">
+            </div>
+            <div class="row">
+                <label>Email Address</label>
+                <input type="text" name="email" required>
+            </div>
+            <div class="row">
+                <label>Phone No.</label>
+                <input type="tel" name="phone" required>
+            </div>
+            <div class="row">
+                <label>Gender</label>
+                <select name="gender">
+                    <option>Gender</option>
+                    <option value="M">Male</option>
+                    <option value="F">Female</option>
+                    <option value="O">Others</option>
+                </select>
+            </div>
+            <div class="row">
+                <label>Age Group</label>
+                <select name="age">
+                    <option>Age group</option>
+                    <option value="age_0_22">0 to 22</option>
+                    <option value="age_23_29">23 to 29</option>
+                    <option value="age_30_35">30 to 35</option>
+                    <option value="age_36_40">36 to 40</option>
+                    <option value="plus_40">40 Plus</option>
+                </select>
+            </div>
+            <div class="row">
+                <label>Password</label>
+                <input type="password" name="pass" required>
+            </div>
+            <div class="row">
+                <label>Confirm Password</label>
+                <input type="password" name="c_pass" required>
+            </div>
+            <div class="row subrow">
+                <input type="submit" name="sub" value="Create Account">
+            </div>
+            
+            
+        </div>
+    </div>
+    </form>
+
+</body>
+</html>
