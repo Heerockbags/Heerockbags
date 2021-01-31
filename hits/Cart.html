@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Product Detail</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <style>
+      @media(max-width:768px){
+      iframe{
+          height: 1400px;
+      }
+    }
+      @media(max-width:400px){
+      iframe{
+          height: 1500px;
+      }
+    }
+  </style>
+  </head>
+  <body>
+    <div class="parallax">
+      <header>
+        <nav id="header-nav" class="navbar navbar-default">
+          <div class="container-fluid">
+            <div class="navbar-header">
+              <a href="hits intern.html" class="pull-left"><div><h2 id="logo"><strong>HEEROCK</strong></h2></div></a>
+            </div>
+            <!-- <div class="collapse navbar-collapse" id="navbarsExampleDefault"> -->
+            <div>
+            <ul id="nav-list"class="nav navbar-nav navbar-left">
+              <li class="nav-item"><a class="nav-link" id="link1" href="New_Arrival.html">New Arrivals</a></li>
+              <li class="nav-item"><a class="nav-link" id="link1" href="#"> Best Deals</a></li>
+              <li class="nav-item"><a class="nav-link" id="link1" href="Our_Story.html"> Our Story</a></li>
+              <li class="nav-item dropbtn"><a class="nav-link" href="#" id="link1">Category</a>
+              <div class="dropdown-content">
+                <a href="./CategoryHits/categoryToAll.html">MAN</a>
+                <a href="./CategoryHits/categoryToAll.html">WOMAN</a>
+                <a href="./CategoryHits/categoryToAll.html">KIDS</a>
+              </div>
+              </li>
+              <li class="nav-item"><a href="Contact_Page.html" class="nav-link" id="link1"> Contact Us</a></li>
+            </ul>
+            </div>
+            <ul id="nav-list2" class="nav navbar-nav navbar-right">
+              <li id="nav2item"><a href="#"><span onclick="popup4()"class="glyphicon glyphicon-search"></span></a></li>
+              <li id="nav2item"><a href="Register_Page.html"><span onclick="popup1()"class="glyphicon glyphicon-log-in"></span></a></li>
+              <li id="nav2item"><a href="Cart.html"><span class="glyphicon glyphicon-shopping-cart"></span></a></li>
+              <li id="nav2item"><a href="Login_Page.html"><span onclick="popup2()"class="glyphicon glyphicon-user"></span></a></li>
+              <li id="nav-btn"><a href="#"><span onclick="myMove()" class="glyphicon glyphicon-th-list"></span></a></li>
+              <li id="nav-btn2"><a href="#"><span onclick="myMove2()" class="glyphicon glyphicon-remove"></span></a></li>
+            </ul>
+          </div>
+          <div id="search">
+            <div class="indiv">
+              <form>
+                <input type="text" name="" class="search-txt" placeholder="Type To Search"/>
+                <span id="srch-btn"class="glyphicon glyphicon-search"></span>
+              </form>
+            </div>
+          </div> 
+        </nav> 
+      </header>
+
+      <iframe src="./heerockbags/cart.php" frameborder=0 scrolling="no" width="100%" height="1000px"></iframe>
+
+
+   
+    <!-- info footer -->
+    <footer class="panel-footer">
+      <div class="container-fluid">
+        <div class="row">
+          <section id="hours" class="col-sm-4">
+              <span>Hours:</span><br>
+              Sun-Thurs: 11:15am - 10:00pm<br>
+              Fri: 11:15am - 2:30pm<br>
+              Saturday Closed
+            <hr class="visible-xs">
+          </section>
+          <section id="address" class="col-sm-4">
+            <span>Contact Us:</span><br>
+            7105 Reisterstown Road<br>
+            Baltimore, MD 21215
+            <hr class="visible-xs">
+          </section>
+          <section id="aboutus" class="col-sm-4">
+              <span>About Us:</span><br>
+              We are a bag selling company and a trusted company<br>
+              Bags are just not packing thing but also wishes
+              <hr class="visible-xs">
+            </section>
+        </div>
+        <div class="text-center">&copy; Copyright Heerock Bags 2021|<a style="color:white">Privacy policy</a></div>
+      </div>
+    </footer>
+    <!-- social media handles -->
+    <div class="a ">    
+        <ul class="my-3" style="padding: 0">
+            <li><i class="fab fa-facebook-f"></i></li>
+            <li><i class="fab fa-twitter"></i></li>
+            <li><i class="fab fa-instagram"></i></li>
+            <li><i class="fab fa-linkedin-in"></i></li>
+            <li><i class="fab fa-youtube"></i></li>
+        </ul>
+    </div>
+  </div>
+  <script>
+      var count=0,count4=0;
+      function myMove() {
+      var elem=document.getElementById("nav-btn");
+      var elem1=document.getElementById("nav-btn2");
+      var elem2=document.getElementById("nav-list");
+      elem.style.display="none";
+      elem1.style.display="block";
+      elem2.style.left = 0; 
+      }
+      function myMove2() {
+      var elem=document.getElementById("nav-btn");
+      var elem1=document.getElementById("nav-btn2");
+      var elem2=document.getElementById("nav-list");
+      elem2.style.left= -100 +'%';
+      elem1.style.display="none";
+      elem.style.display="block";
+      }
+      function popup4(){
+        count4++;
+        var elem=document.getElementById("search");
+        if(count4%2!=0)
+          elem.style.display ="block"; 
+        else
+          elem.style.display="none";
+      }
+  </script>
+    </div>
+</body>
+</html>

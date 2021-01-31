@@ -1,0 +1,170 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    text-transform: capitalize;
+    font-family: 'Exo 2', sans-serif;
+    list-style-type:none ;
+    text-decoration: none;
+}
+html{
+    font-size: 40%;
+    scroll-behavior: smooth;
+}
+body
+{
+    overflow: auto;
+}
+.carousel-item img{
+    display: flex;
+}
+.lSAction > .lSNext {
+    background-position: 0 0;
+    /* color: black; */
+    right: 10px;
+    top: -112px;
+}
+.lSAction > .lSPrev {
+    background-position: 0 0;
+    left: 10px;
+    top: -112px;
+}
+.box
+{
+    width: 230px;
+    height: 233px;
+    box-shadow: 2px 2px 30px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    overflow:hidden;
+    margin: 20px;
+
+}
+.slide-image{
+    height: 235px;
+    position: relative;
+}
+ .bg
+{
+	width: 40%;
+    height: 41%;
+    position: absolute;
+    top: 30%;
+    left: 28%;
+		
+    	
+}
+.detail-box
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 9px;
+    letter-spacing: 0.5px;
+    /* position: absolute; */
+    /* margin: auto; */
+    /* margin-top: 7px; */
+    font-size: 10px;
+    position: absolute;
+    /* position: absolute; */
+    bottom: 10px;
+}
+.type
+{
+		display: flex;
+		flex-direction: column;
+}
+.type h1
+{
+    font-size: 15px;
+    font-weight: 700;
+}
+.type h2{
+    font-size: 15px;
+    font-weight: 700;
+    margin: auto;
+}
+.overlay{
+    position: absolute;
+    bottom: 100%;
+    top: -20px;
+    width: 100%;
+    height:0;
+    
+}
+.overlay h2{
+    font-size: 21px;
+    background-color: #ffe233;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+    font-weight: 700;
+    padding: auto;
+    
+   
+}
+
+.dis
+{ 
+    width: 100%;
+    height: 59px;  
+}
+
+.buy-btn
+{
+    width: 100px;
+    position: absolute;
+    left: 121px;
+    top: 33px;
+    height: 32px;
+    /* margin: auto; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    font-size: 12px;
+    font-weight: 550;
+    border: 0.01px solid gray;
+    box-shadow: 2px 2px 30px rgb(0 0 0 / 10%);
+    letter-spacing: 1px;
+    text-decoration: none;
+} 
+
+.buy-btn:hover{
+    color:#FFFFFF;
+    background-color: #f15fa3; ;
+    transition: all ease 0.2s;
+}
+
+.head h2{
+    display: flex;
+    justify-content: center;
+    font-size: 28px;
+    font-weight: 600;
+    margin: 45px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+   
+}
+.slide-image:hover .bg
+{ 
+    transform: scale(1.1);
+}
+
+@keyframes fade
+{
+    0%
+    {
+    	opacity: 0;
+    }
+    100%
+    {
+     	opacity: 1;
+    }
+}
+
+

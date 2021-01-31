@@ -1,0 +1,30 @@
+.typeBags .card{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 10000px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+    
+    }
+    section{
+        padding: 10px;
+    }
+    .row
+    {
+        width: 100%;
+    }
+    .typeBags:hover {
+        transform:scale(1.1);
+        background-color: black;
+        font-size: 800px;
+        transition-duration: 1s;
+        font-weight: bolder;
+        
+        
+    }
+    
+    
