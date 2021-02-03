@@ -75,12 +75,12 @@ include "connection.php";
       </div>
     <nav aria-label="breadcrumb">
         <ol class="breadcrumb">
-          <li class="breadcrumb-item"><a href="#">Heerock</a></li>
+          <li class="breadcrumb-item"><a href="../index.html">Heerock</a></li>
           <li class="breadcrumb-item active" aria-current="page">New Arrivals</li>
         </ol>
       </nav>
 
-<div class="card-women">New Arrivals For Women<small class="text-muted" style="float:right">Last Updated 5 sec ago!</small></div>
+<div class="card-women">New Arrivals For Women<small class="text-muted" style="float:right"></small></div>
 <div class="container-fluid">
 <div class="row">
     
@@ -101,7 +101,7 @@ include "connection.php";
         echo '<div class="des">';
 
         echo '<div class="price">Rs 9000</div>';
-        echo '<div class="cart"><a href="#" class="btn btn-outline-secondary"><img src="shop-cart.svg"></a></div>';
+        echo '<div class="cart"><a href="#" class="btn btn-outline-secondary"><img src="fast-cart.png"/></a></div>';
         
         echo '</div>';
         echo '</div>';
@@ -118,7 +118,7 @@ include "connection.php";
 <br>
 
 
-<div class="card-men">New Arrivals For Men<small class="text-muted" style="float:right">Last Updated 5 sec ago!</small></div>
+<div class="card-men">New Arrivals For Men<small class="text-muted" style="float:right"></small></div>
 
 <div class="container-fluid">
 <div class="row">
@@ -159,7 +159,7 @@ include "connection.php";
 <br>
 
 
-<div class="card-kids">New Arrivals For Kids<small class="text-muted" style="float:right">Last Updated 5 sec ago!</small></div>
+<div class="card-kids">New Arrivals For Kids<small class="text-muted" style="float:right"></small></div>
 
 <div class="container-fluid">
 <div class="row">
