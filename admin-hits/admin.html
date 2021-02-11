@@ -1,0 +1,364 @@
+<html>
+    <head>
+        <title>
+            Hello , Admin
+        </title>
+        <link rel="stylesheet" href="adminCSS.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+        <link rel="stylesheet" href="style.css">
+        
+    </head>
+    <body >
+         <div class="btn">
+      <span class="fas fa-bars"></span>
+    </div>
+     <div class="logo">
+      <span><img src="logo.png"></span>
+    </div>
+    <nav class="sidebar">
+      <div class="text">Side Menu</div>
+      <ul>
+        <li class="active"><a href="#">Dashboard</a></li>
+        <li>
+          <a href="#" class="feat-btn">Features
+            <span class="fas fa-caret-down first"></span>
+          </a>
+          <ul class="feat-show">
+            <li><a href="#">Pages</a></li>
+            <li><a href="#">Elements</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#" class="serv-btn">Services
+            <span class="fas fa-caret-down second"></span>
+          </a>
+          <ul class="serv-show">
+            <li><a href="#">App Design</a></li>
+            <li><a href="#">Web Design</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Portfolio</a></li>
+        <li><a href="#">Overview</a></li>
+        <li><a href="#">Shortcuts</a></li>
+        <li><a href="#">Feedback</a></li>
+      </ul>
+    </nav>
+        <div class="headContent" >
+            <div class="panelContainer">
+                <div class="container">
+                    <div class="row panelRow" >
+                        <div class="col-md-3 panelColumn" style="border:1px solid black;">
+                            <h1>New Rides</h1>
+                           <div class="panelContent">
+                           
+                            <h2>67</h2>
+                            <p>This Month:90</p>
+
+                           </div> 
+                           <div class="panelImage" style="float:right;">
+                            <img src="cruelf.PNG" alt="logo" style="height: 80px;width:50px;">
+
+                           </div>
+                            
+                        </div>
+
+                        <div class="col-md-3 panelColumn" style="border:1px solid black;">
+                            <h1>New Rides</h1>
+                           <div class="panelContent">
+                           
+                            <h2>67</h2>
+                            <p>This Month:90</p>
+
+                           </div> 
+                           <div class="panelImage" style="float:right;">
+                            <img src="cruelf.PNG" alt="logo" style="height: 80px;width:50px;">
+
+                           </div>
+                            
+                        </div>
+
+                        <div class="col-md-3 panelColumn" style="border:1px solid black;">
+                            <h1>New Rides</h1>
+                           <div class="panelContent">
+                           
+                            <h2>67</h2>
+                            <p>This Month:90</p>
+
+                           </div> 
+                           <div class="panelImage" style="float:right;">
+                            <img src="cruelf.PNG" alt="logo" style="height: 80px;width:50px;">
+
+                           </div>
+                            
+                        </div>
+
+                        <div class="col-md-3 panelColumn" style="border:1px solid black;">
+                            <h1>New Rides</h1>
+                           <div class="panelContent">
+                           
+                            <h2>67</h2>
+                            <p>This Month:90</p>
+
+                           </div> 
+                           <div class="panelImage" style="float:right;">
+                            <img src="cruelf.PNG" alt="logo" style="height: 80px;width:50px;">
+
+                           </div>
+                            
+                        </div>  
+                    </div>
+
+                </div>
+               
+                    
+            </div>
+            <br>
+            <br>
+
+            <div class="detail" style="margin-bottom:10px ;">
+                <input type="radio" style="margin-left:10px ;"> Latest Ride
+                <a href="#" style="float: right; margin-right:18px ;">View all</a>
+            </div>
+            <div class="table_content">
+                <table class="table table-hover">
+                    <thead>
+                      <tr>
+                        <th scope="col">Date</th>
+                        <th scope="col">BOOKING ID </th>
+                        <th scope="col">RIDER</th>
+                        <th scope="col">DRIVER</th>
+                        <th scope="col">FARE</th>
+                        <th scope="col">STATUS</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">14/12/2018</th>
+                        <td>R7282991919</td>
+                        <td>RAHUL</td>
+                        <td>DEEPANK</td>
+                        <td>60.00$</td>
+                        <td>Completed</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">14/12/2018</th>
+                        <td>R7282991919</td>
+                        <td>RAHUL</td>
+                        <td>DEEPANK</td>
+                        <td>60.00$</td>
+                        <td>Completed</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">14/12/2018</th>
+                        <td>R7282991919</td>
+                        <td>RAHUL</td>
+                        <td>DEEPANK</td>
+                        <td>60.00$</td>
+                        <td>Completed</td>
+                      </tr>
+                    </tbody>
+                  </table>
+            </div>
+
+            <br>
+            <br>
+            <hr>
+            <div class="tabcontainer">
+                <div class="buttoncontainer">
+                    <button onclick="showPanel(0,'gray')">Statistics</button>
+                    <button onclick="showPanel(1,'gray')">Rider Signups</button>
+                    <button onclick="showPanel(2,'gray')">Driver Signups</button>
+                </div>
+                <div class="tabPanel">
+                    <div class="table_content">
+                        <table class="table table-hover">
+                            <thead>
+                              <tr>
+                                <th scope="col"></th>  
+                                <th scope="col">TODAY</th>
+                                <th scope="col">THIS WEEK </th>
+                                <th scope="col">THIS MONTH</th>
+                                <th scope="col">LAST 3 MONTHS</th>
+                                <th scope="col">TOTAL</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <th scope="row">RIDERS REGISTERD</th>
+                                <td>0</td>
+                                <td>1</td>
+                                <td>18</td>
+                                <td>38</td>
+                                <td>283</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">DRIVERS REGISTERD</th>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>19</td>
+                                <td>34</td>
+                                <td>293</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">RIDES COMPLETED</th>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>13</td>
+                                <td>8</td>
+                                <td>263</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">RIDE BASE FARE GENERATED</th>
+                                <td>0.00</td>
+                                <td>0.00</td>
+                                <td>332.50</td>
+                                <td>1923.40</td>
+                                <td>139486.22</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">RIDE COMISSION GENERATED</th>
+                                <td>0.00</td>
+                                <td>0.00</td>
+                                <td>145.65</td>
+                                <td>112.00</td>
+                                <td>2616.86</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                    </div>
+        
+                </div>
+                <div class="tabPanel">
+                    <div class="table_content">
+                        <table class="table table-hover">
+                            <thead>
+                              <tr>
+                                <th scope="col">#</th>
+                                <th scope="col">NAME </th>
+                                <th scope="col">PHONE</th>
+                                <th scope="col">BALANCE</th>
+                                <th scope="col">POINTS</th>
+                                <th scope="col">STATUS</th>
+                                <th scope="col">APPROVED</th>
+                                <th scope="col">ADDED ON</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <th scope="row">1</th>
+                                <td>SUMAN</td>
+                                <td>+918362783986</td>
+                                <td>0.00</td>
+                                <td>0</td>
+                                <td>Y</td>
+                                <td>Y</td>
+                                <td>25/12/2019</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">2</th>
+                                <td>ADITYA</td>
+                                <td>+917278965438</td>
+                                <td>0.00</td>
+                                <td>0</td>
+                                <td>Y</td>
+                                <td>Y</td>
+                                <td>05/10/2019</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">3</th>
+                                <td>DEVANSH</td>
+                                <td>+918785783986</td>
+                                <td>0.00</td>
+                                <td>0</td>
+                                <td>N</td>
+                                <td>Y</td>
+                                <td>10/11/2019</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                    </div>
+        
+                </div>
+                <div class="tabPanel">
+                    <div class="table_content">
+                        <table class="table table-hover">
+                            <thead>
+                                <tr>
+                                    <th scope="col">#</th>
+                                    <th scope="col">NAME </th>
+                                    <th scope="col">PHONE</th>
+                                    <th scope="col">BALANCE</th>
+                                    <th scope="col">POINTS</th>
+                                    <th scope="col">STATUS</th>
+                                    <th scope="col">APPROVED</th>
+                                    <th scope="col">ADDED ON</th>
+                                  </tr>
+                                </thead>
+                                <tbody>
+                                  <tr>
+                                    <th scope="row">1</th>
+                                    <td>SUMAN</td>
+                                    <td>+918362783986</td>
+                                    <td>0.00</td>
+                                    <td>0</td>
+                                    <td>Y</td>
+                                    <td>Y</td>
+                                    <td>25/12/2019</td>
+                                  </tr>
+                                  <tr>
+                                    <th scope="row">2</th>
+                                    <td>ADITYA</td>
+                                    <td>+917278965438</td>
+                                    <td>0.00</td>
+                                    <td>0</td>
+                                    <td>Y</td>
+                                    <td>Y</td>
+                                    <td>05/10/2019</td>
+                                  </tr>
+                                  <tr>
+                                    <th scope="row">3</th>
+                                    <td>DEVANSH</td>
+                                    <td>+918785783986</td>
+                                    <td>0.00</td>
+                                    <td>0</td>
+                                    <td>N</td>
+                                    <td>Y</td>
+                                    <td>10/11/2019</td>
+                                  </tr>
+                            </tbody>
+                          </table>
+                    </div>
+        
+                </div>
+            </div>
+        </div>
+
+        <script src="main.js"></script>
+         <script>
+    $('.btn').click(function(){
+      $(this).toggleClass("click");
+      $('.sidebar').toggleClass("show");
+    });
+      $('.feat-btn').click(function(){
+        $('nav ul .feat-show').toggleClass("show");
+        $('nav ul .first').toggleClass("rotate");
+      });
+      $('.serv-btn').click(function(){
+        $('nav ul .serv-show').toggleClass("show1");
+        $('nav ul .second').toggleClass("rotate");
+      });
+      $('nav ul li').click(function(){
+        $(this).addClass("active").siblings().removeClass("active");
+      });
+    </script>
+
+
+
+    </body>
+
+</html>

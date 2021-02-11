@@ -1,0 +1,113 @@
+
+*{
+    padding: 0px;
+    margin:0px;
+}
+    body{
+    background-color:#659BDB !important;
+}
+.headContent{
+    margin-top: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 40px;
+    border-radius: 10px 10px 10px 10px;
+    background-color:antiquewhite;
+    height: 1500px;
+    
+}
+.panelContainer{
+   
+    height:300px;
+    border-radius: 10px 10px 0px 0px;
+    border:1px solid black;
+    background-color: #8D8741;
+}
+li{
+    margin: 10px;
+    list-style-type: none;
+}
+a
+{
+    text-decoration: none;
+    color: black;
+}
+.panelRow{
+    flex-wrap: nowrap !important;
+    
+}
+.columnContent
+{
+    margin:15px; 
+}
+.panelColumn{
+    position: absolute;
+    width:100%;
+    margin:55px 8px 10px 5px ;
+    float: left;
+
+}
+.panelColumn h1{
+    text-align:center;
+    font-size: 30px;
+    margin-bottom: 19px;
+    margin-top: 10px;
+}
+.panelContent{
+    position: relative;
+    width:70%;
+    float: left;
+}
+.panelImage{
+    position: relative;
+    width:30%;
+}
+@media (min-width: 768px)
+ {
+    .col-md-3 {
+        max-width: 24% !important;
+    }
+ }
+
+
+    /*Tabs */
+
+.tabcontainer
+{
+    width: 100%;
+    height: 350px;
+}
+.tabcontainer .buttoncontainer
+{
+    height: 15%;
+}
+
+.tabcontainer .buttoncontainer button
+{
+    width: 25%;
+    height: 100%;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 10px;
+    font-family: sans-serif;
+    font-size: 18px;
+    background-color: #eee
+}
+.tabcontainer .buttoncontainer button:hover
+{
+    background-color: rgb(65, 65, 92);
+}
+.tabcontainer .tabPanel
+{
+    height: 85%;
+    background-color: gray;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 22px;
+    display: none;
+}
